@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    
+}
+
+.logo{
+    height: 2rem;
+    width: 2rem;
+    padding: 1rem;
+
+}
+.caja{
+    border:0.5px black;
+   
+    padding: 1rem;
+}
+
+.marge{
+    /*text-align: center;*/
+    width: 60%; 
+    border-left: 20pt;
+
+}    
+
+.div_marge{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
