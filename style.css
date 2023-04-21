@@ -1,30 +1,34 @@
-body{
+body {
     text-align: center;
-    
+    margin: 0;
+    padding: 0;
+    background: url(https://i.pinimg.com/236x/b6/22/c3/b622c391ea7873f2a8b7a21097ab534c.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
 
-.logo{
+
+.logo {
     height: 2rem;
     width: 2rem;
     padding: 1rem;
 
 }
-.caja{
-    border:0.5px black;
-   
+
+.caja {
+    border: 0.5px black;
+
     padding: 1rem;
 }
 
-.marge{
-    /*text-align: center;*/
-    width: 60%; 
-    border-left: 20pt;
 
-}    
+.cont {
+    color: #000;
+    ;
+    /*height: 5vh;*/
+    margin-left: 30%;
+    margin-right: 30%;
 
-.div_marge{
 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 }
